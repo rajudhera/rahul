@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        body{
+            box-sizing: border-box;margin: 200px;
+        }
+        .circle{
+            height: 600px;width: 600px;border-radius: 50%;border: 5px solid blue;
+            background: url(./bridge-P-080916.jpg);
+        
+        }
+        
+      
+     
+   
+        
+        .inside{ height: 400px;width: 400px;border-radius: 50%;border: 5px solid red;
+          margin-top: 100px;margin-left: 90px;  
+          background: url(./burj\ khalifa.jpg);
+        }
+        .circle{
+            animation: data 6S; animation-iteration-count: infinite;animation-fill-mode: backwards;
+        }
+        @keyframes data{
+            0%{transform: translateX(0px) rotate(0deg) scaleX(1);}
+            
+            100%{ transform: translate(0px) rotate(-360deg) scale(1);}
+        }
+        .inside{
+            animation:kuchbhi 6S; animation-iteration-count: infinite;animation-fill-mode: backwards;
+        }
+        @keyframes kuchbhi{
+            0%{transform: translateX(0px) rotate(0deg) scaleX(1);}
+            
+            100%{ transform: translate(0px) rotate(3600deg)0 scale(1);}
+        }
+        .center{
+            animation:kuchbhii 6S; animation-iteration-count: infinite; animation-fill-mode: backwards;
+        }
+        @keyframes kuchbhii{
+            0%{transform: translateX(0px) rotate(0deg) scaleX(1);}
+            
+            100%{ transform: translate(0px) rotate(7200deg) scale(1);}
+        }
+            
+        
+        .center{
+            height: 200px;width: 200px;border-radius: 50%;border: 5px solid green;
+          margin-top: 100px;margin-left: 90px;
+          background: url(./Taj-Mahal-1200x849.jpg);
+        } 
+       
+       
+    </style>
+</head>
+<body>
+   <div class="circle">
+    <div class="inside">
+        <div class="center"></div>  
+    </div>
+   </div>
+   
+</body>
+</html>
